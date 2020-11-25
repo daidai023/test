@@ -4,7 +4,7 @@ import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
 
 public class Application {
     //定义mock服务的端口
-    private static final int PORT = 9090;
+    private static final int PORT = 9990;
 
     //定义mock服务的地址
     private static final String LOCALHOST = "localhost";
