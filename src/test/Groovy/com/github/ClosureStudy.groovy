@@ -12,6 +12,7 @@ class ClosureStudy {
         println secondClosure(1, 2)
     }
 
+    //闭包作为方法的参数
     def myFunction(name,closure) {
         closure(name)
     }
@@ -23,6 +24,7 @@ class ClosureStudy {
         myFunction("Lave",{println("my name is ${it}")})
     }
 
+    //闭包是方法的唯一参数
     void function(closure) {
         def a = "hello"
         closure(a)
